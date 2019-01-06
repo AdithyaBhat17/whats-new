@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdithyaBhat17/wotsnew.git"
+    "url": "git+https://github.com/AdithyaBhat17/whats-new.git"
   },
   "keywords": [
     "CurrentsAPI",
@@ -20,19 +20,22 @@
   "author": "Adithya NR",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AdithyaBhat17/wotsnew/issues"
+    "url": "https://github.com/AdithyaBhat17/whats-new/issues"
   },
-  "homepage": "https://github.com/AdithyaBhat17/wotsnew#readme",
+  "homepage": "https://github.com/AdithyaBhat17/whats-new#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "requests": "^0.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.7",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
     "webpack-dev-server": "^3.1.14"
