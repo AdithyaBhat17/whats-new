@@ -12,7 +12,6 @@ export default class App extends React.Component{
         }
     }    
     componentDidMount(){
-        console.log(process.env.APIKEY)
         axios.get(`https://newsapi.org/v2/everything?q=everything&apiKey=APIKEYHERE`)
         .then((resp) => {
             let data = this.state.data.concat(resp.data.articles)
